@@ -1,0 +1,12 @@
+<h1>Add a joke</h1>
+
+<form method="post">
+    <input type="text" name="addjoke" placeholder="Add a joke here">
+</form>
+{{# each jokes}}
+<p>{{this}}</p>
+{{/each}}
+
+<br>
+
+<a href="../"> Back to frontpage</a>
